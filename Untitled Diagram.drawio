@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T05:46:10.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="fknmzmz9LyMyzS8TpeNt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T06:02:04.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="j4QUPBS-QJydmgnwBver" version="21.1.1" type="github">
   <diagram name="Page-1" id="epOGtKkuxTaGdo-BuV2_">
-    <mxGraphModel>
+    <mxGraphModel dx="1862" dy="1972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oLSG_SzDzWcuXazKEerr-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-7.5" y="-552.5" width="55" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-7" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-8" value="Without login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-9" value="Main Page - Chat&amp;nbsp;&lt;br&gt;Main Page - Meitu api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLSG_SzDzWcuXazKEerr-8" target="oLSG_SzDzWcuXazKEerr-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-65" as="sourcePoint" />
+            <mxPoint x="30" y="-205" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLSG_SzDzWcuXazKEerr-12" target="oLSG_SzDzWcuXazKEerr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-12" value="UserEmail/Password from ICI API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLSG_SzDzWcuXazKEerr-7" target="oLSG_SzDzWcuXazKEerr-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-245" as="sourcePoint" />
+            <mxPoint x="230" y="-200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-14" value="Main Page - Chat with user records&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#a680b8&quot;&gt;Main Page - Meitu api&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oLSG_SzDzWcuXazKEerr-12" target="oLSG_SzDzWcuXazKEerr-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="-160" as="sourcePoint" />
+            <mxPoint x="-180" y="-200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLSG_SzDzWcuXazKEerr-17" value="&lt;font color=&quot;#a680b8&quot;&gt;Color means - TBD&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-400" width="110" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
