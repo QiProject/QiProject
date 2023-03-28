@@ -8,3 +8,8 @@ Skills:
 - Blockchain Dev: Solidity, Hardhat, Ethers.js
 - iOS Dev since Objective-C:  UIkit, SwfitUI,RxSwfit, Combine. IAP
 - Unity3D/Godot for minigames.
+
+Language:
+Mandarin
+English
+Spanish
